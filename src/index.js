@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Home} from './Components/Pages/Home.jsx'
+import {Home} from './Components/Pages/Home/Home.jsx';
 
 
 ReactDOM.render(

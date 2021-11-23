@@ -1,9 +1,11 @@
 import './Logo.css';
-import logo from '../../../Images/logo192.png'
+import logo from '../../../Images/Logo.png'
 
 
 export const Logo = () =>{
     return (
-        <img className="imgLogo" src={logo} alt="Img-Logo" />
+        <>
+            <img className="imgLogo" src={logo} alt="Img-Logo" />
+        </>
     )
 }
