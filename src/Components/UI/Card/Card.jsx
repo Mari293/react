@@ -1,12 +1,12 @@
 import './Card.css';
-import image from '../../../Images/girasol.jpg'; 
+// import image from '../../../Images/girasol.jpg'; 
 
-export const Card = () => {
+export const Card = ({lobo}) => {
     return(
         <>
-            <div className="card">
-                <img className="card-image" src = {image} alt ="image-card" />
-                <h2 className="card-title">Girasol</h2>
+            <div key={lobo.id} className="card">
+                <img className="card-image" src = {lobo.URL} alt ="image-card" />
+                <h2 className="card-title">{lobo.name}</h2>
             </div>
         </>
     )
