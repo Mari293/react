@@ -1,0 +1,2 @@
+/* .main{display: flex; flex-direction: column; justify-content: center;align-items: center;background: #78c6a3;} */
+.cards{display: flex;  flex-wrap: wrap; margin: 2rem; justify-content: center;}

@@ -1,6 +1,7 @@
 import React from "react";
-import {Home} from './Components/Pages/Home/Home.jsx';
-// import {Products} from './Components/Pages/Products/Products.jsx';
+import { Home } from "./Components/Pages/Home/Home.jsx";
+import { Products } from "./Components/Pages/Products/Products.jsx";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,6 +14,9 @@ export default function App() {
       <Switch>
           <Route path="/">
             <Home />
+          </Route>
+          <Route path="/products">
+            <Products />
           </Route>
         </Switch>      
     </Router>
